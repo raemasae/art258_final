@@ -1,0 +1,12 @@
+.button {
+  border: 3px solid $button-color;
+  width: 250px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  text-align: center;
+
+  a {
+    background: $button-color;
+    padding: 1rem 3rem;
+  }
+}
