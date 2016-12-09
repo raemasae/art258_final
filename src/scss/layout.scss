@@ -2,4 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $main-font;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+}
+
+a {
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+h1 {
+  font-family: $company-font;
+  font-size: $header-font-size;
+  font-weight: $header-font-weight;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  font-weight: $h2-font-weight;
+}
+
+h3 {
+  font-size: $h3-font-size;
+  font-weight: $h3-font-weight;
 }
