@@ -1,0 +1,114 @@
+.section {
+  overflow-x: hidden;
+  text-align: center;
+
+  .content {
+    display: flex;
+    margin-bottom: 2rem;
+
+    h3 {
+      font-size: $mobile-h3-font-size;
+      margin-top: 3.5rem;
+    }
+
+    .small_width {
+      width: 250px;
+    }
+  }
+}
+
+.section.meetings {
+  background-color: $background-one;
+
+  .content {
+    .meetings_content_early {
+      margin-top: 5rem;
+    }
+
+    .meetings_content_img {
+      margin-right: 0.5rem;
+
+      a {
+        .meh {
+          margin-left: -25px;
+        }
+
+        .almost {
+          width: 270px;
+        }
+      }
+    }
+  }
+}
+
+.section.act {
+  padding-bottom: 4rem;
+
+  .content {
+    margin-bottom: 0;
+
+    .first_date {
+      margin-top: 5rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .act_content_img {
+      .nice {
+        margin-left: -25px;
+      }
+
+      .own {
+        width: 400px;
+      }
+    }
+  }
+
+  .content.column {
+    flex-direction: column;
+    margin-top: -35px;
+
+    h3 {
+      margin-bottom: -25px;
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  h2 {
+    font-size: $mobile-h2-font-size;
+    margin-bottom: 1rem;
+  }
+}
+
+section.instagram {
+  background: $background-two;
+  margin-bottom: 0;
+  padding-bottom: 4rem;
+
+  .instagram_tag {
+    margin: 2rem 0.5rem 1.5rem;
+
+    a {
+      h2 {
+        font-size: $mobile-h2-font-size;
+        color: $button-color;
+      }
+    }
+  }
+
+  .instagram_img {
+    padding-bottom: 3rem;
+
+    a {
+      img {
+        height: 300px;
+        vertical-align: text-bottom;
+      }
+    }
+  }
+
+  .button.instagram {
+    margin-bottom: 2rem;
+  }
+}

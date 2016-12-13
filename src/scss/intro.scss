@@ -1,0 +1,16 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 4rem 1rem;
+
+  h1 {
+    font-size: $mobile-header-font-size;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: $mobile-h2-font-size;
+    margin: 0 auto;
+  }
+}

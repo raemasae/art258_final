@@ -9,17 +9,15 @@
 
 a {
   text-decoration: none;
-  color: #2a2a2a;
+  color: $primary-text-color;
 }
 
 h1 {
   font-family: $company-font;
-  font-size: $header-font-size;
   font-weight: $header-font-weight;
 }
 
 h2 {
-  font-size: $h2-font-size;
   font-weight: $h2-font-weight;
 }
 
@@ -31,4 +29,13 @@ h3 {
 img {
   width: 300px;
   margin: 0 auto;
+}
+
+div {
+  width: auto;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 2rem 1rem;
 }

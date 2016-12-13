@@ -1,5 +1,15 @@
-footer .parallax-window {
-  position: relative;
+footer {
+  .parallax-window {
+    position: relative;
+
+    .copyright {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 3rem;
+      text-align: center;
+    }
+  }
 }
 
 .parallax-window {
