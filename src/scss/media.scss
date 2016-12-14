@@ -1,0 +1,96 @@
+@media screen and (min-width: 769px) {
+  .parallax-window {
+    height: 400px;
+  }
+
+  .intro {
+    max-width: 700px;
+    margin: 5rem auto;
+
+    h1 {
+      font-size: $header-font-size;
+    }
+
+    h2 {
+      font-size: $h2-font-size;
+    }
+  }
+
+  .section {
+    &.meetings,
+    &.act {
+      h3 {
+        font-size: $h3-font-size;
+      }
+
+      h2 {
+        font-size: $h2-font-size;
+        max-width: 700px;
+        margin: 0 auto 2rem;
+      }
+    }
+
+    &.instagram {
+      .instagram_tag {
+        h2 {
+          font-size: $h2-font-size;
+        }
+      }
+
+      .instagram_img {
+        flex-direction: row;
+        justify-content: center;
+        margin: 3rem 1rem;
+
+        a {
+          img {
+            width: 150px;
+            height: 150px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .section.instagram {
+    .instagram_img {
+      a {
+        img {
+          width: 200px;
+          height: 200px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .parallax-window {
+    height: 500px;
+  }
+
+  .section.instagram {
+    .instagram_img {
+      a {
+        img {
+          width: 250px;
+          height: 250px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .parallax-window {
+    height: 600px;
+    max-width: 1900px;
+  }
+
+  .section {
+    max-width: 1900px;
+    margin: 0 auto;
+  }
+}

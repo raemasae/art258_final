@@ -5,6 +5,7 @@
   .content {
     display: flex;
     margin-bottom: 2rem;
+    max-width: 700px;
 
     h3 {
       font-size: $mobile-h3-font-size;
@@ -99,6 +100,8 @@ section.instagram {
 
   .instagram_img {
     padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
 
     a {
       img {
