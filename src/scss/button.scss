@@ -1,20 +1,24 @@
-.button {
+.main_button {
+  width: 275px;
+  height: 100px;
   border: 3px solid $button-color;
-  width: 250px;
-  padding: 1.5rem 0;
-  margin: 0 auto;
-  text-align: center;
-  // border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  a {
-    background: $button-color;
-    padding: 1rem 3rem;
-    font-weight: 400;
+  button {
+    @include button_base;
+
+    transition: width 0.7s ease-out;
+    transition: height 0.7s ease-out;
+    width: 250px;
+    padding: 1.5rem;
   }
-}
 
-.button.instagram {
-  a {
-    padding: 1rem;
+  button:hover {
+    cursor: pointer;
+    width: 275px;
+    height: 100px;
+    color: white;
   }
 }

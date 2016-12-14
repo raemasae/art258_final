@@ -17,6 +17,7 @@ $h3-font-weight: 400;
 $mobile-h3-font-size: 1.3rem;
 
 $nav-font-size: 1rem;
+$toggle-font-size: 1.2rem;
 
 $primary-text-color: #2a2a2a;
 $secondary-text-color: #dab33c;
@@ -24,3 +25,8 @@ $tertiary-text-color: #c56003;
 $button-color: #ef8c64;
 $background-one: rgba(116, 153, 152, 0.52);
 $background-two: #f5f4f4;
+
+@mixin button_base {
+  border: none;
+  background: $button-color;
+}
