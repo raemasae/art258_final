@@ -59,6 +59,12 @@
       }
     }
   }
+
+  .section.about {
+    .about_content {
+      margin-top: 70%;
+    }
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -98,6 +104,22 @@
         img {
           width: 250px;
           height: 250px;
+        }
+      }
+    }
+  }
+
+  .section.about {
+    .about_content {
+      margin-top: 50%;
+
+      .about_content_text {
+        .about_content_text_img {
+          margin-top: -400px;
+
+          img {
+            width: 300px;
+          }
         }
       }
     }

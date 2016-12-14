@@ -115,3 +115,69 @@ section.instagram {
     margin-bottom: 2rem;
   }
 }
+
+.section.about {
+  padding: 0;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+
+  .about_img {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+
+    img {
+      height: 100vh;
+      width: 100vw;
+    }
+  }
+
+  .about_content {
+    position: relative;
+    height: auto;
+    width: 100vw;
+    margin-top: 100%;
+    z-index: 2;
+    background: $background-green;
+    padding: 5rem 1rem;
+
+    .about_content_text {
+      max-width: 700px;
+
+      .about_content_text_img {
+        margin-top: -300px;
+        margin-bottom: 3rem;
+
+        img {
+          width: 200px;
+        }
+      }
+
+      h2 {
+        font-size: $header-font-size;
+        line-height: 1;
+        margin: 7rem 0 1.5rem;
+      }
+
+      p {
+        font-size: $toggle-font-size;
+        line-height: 1.5;
+        margin-bottom: 0.8rem;
+      }
+    }
+  }
+
+  .footer.about_footer {
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    z-index: 2;
+
+    p {
+      position: relative;
+      bottom: -100px;
+    }
+  }
+}
