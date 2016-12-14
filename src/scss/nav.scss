@@ -1,0 +1,102 @@
+nav {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  display: none;
+
+  ul {
+    img {
+      width: 100px;
+    }
+
+    li {
+      font-size: $nav-font-size;
+      list-style: none;
+      letter-spacing: 4px;
+      background: $button-color;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+
+      .shop_link:hover {
+        padding-right: 200px;
+      }
+    }
+  }
+}
+
+.toggle {
+  display: flex;
+  left: 0;
+  height: 60px;
+  background: white;
+
+  .toggle_button {
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -20px;
+    background: white;
+
+    span {
+      display: block;
+      width: 60px;
+      height: 7px;
+      margin: 0.3rem auto;
+      background: $button-color;
+      position: relative;
+      top: 20px;
+    }
+
+    .short {
+      width: 40px;
+    }
+
+    .top {
+      display: none;
+    }
+  }
+
+  ul {
+    display: none;
+  }
+}
+
+.toggle.open {
+  height: 500px;
+
+  .toggle_button {
+    .top {
+      display: block;
+    }
+
+    .bottom {
+      display: none;
+    }
+  }
+
+  ul {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 70px;
+
+    img {
+      width: 150px;
+    }
+
+    li {
+      background: transparent;
+
+      a:hover {
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: 7px;
+      }
+    }
+  }
+}
