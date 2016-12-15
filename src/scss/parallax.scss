@@ -14,8 +14,22 @@ footer {
   }
 }
 
-.parallax-window {
+.parallax-window,
+.parallax-window-bff,
+.parallax-window-bff-girls,
+.parallax-window-bff-names {
   height: 300px;
   background: transparent;
   width: auto;
+}
+
+.parallax-window-bff {
+  position: relative;
+
+  .copyright {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5rem;
+  }
 }

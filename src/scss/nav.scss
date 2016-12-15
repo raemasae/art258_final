@@ -21,8 +21,7 @@ nav {
         @include button_base;
 
         transition: padding-right 0.3s ease;
-        padding: 0.3rem 0.5rem;
-        width: 110px;
+        padding: 0.3rem 1.5rem 0.3rem 0.5rem;
         text-align: left;
       }
 
